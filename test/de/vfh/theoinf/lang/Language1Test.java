@@ -44,6 +44,7 @@ public class Language1Test {
 				"baa",
 				"bac",
 				"cba",
+				"eabc",
 				"abcabcabcabcabca"
 		};
 		for (String s : tests) {

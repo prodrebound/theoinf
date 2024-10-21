@@ -8,6 +8,6 @@ public class Language1 {
      * und hinter jedem a direkt ein b folgt.
      */
     public static boolean accept(String word) {
-        return word.matches("(a?b|c)*");
+        return word.matches("^(a?b|c)*$");
     }
 }
